@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.container {
+  width: 600px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  color: white;
+  background-color: rgb(33, 35, 35);
+  box-shadow: 2px 2px 15px 2px #1e1c1c;
+}
+
+form {
+  width: 50%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  outline: none;
+}
+input[type="submit"] {
+  width: 30%;
+  margin: 0 auto;
+  background-color: darkgreen;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+input[type="submit"]:hover {
+  transform: translateY(-3px);
+}
